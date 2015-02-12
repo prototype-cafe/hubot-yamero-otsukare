@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/kenji/.nvm/v0.11.14/bin/node',
+1 verbose cli   '/Users/kenji/.nvm/v0.11.14/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'coveralls' ]
+2 info using npm@2.0.0
+3 info using node@v0.11.14
+4 verbose run-script [ 'precoveralls', 'coveralls', 'postcoveralls' ]
+5 info precoveralls hubot-yamero-otsukare@0.0.0
+6 info coveralls hubot-yamero-otsukare@0.0.0
+7 verbose unsafe-perm in lifecycle true
+8 info hubot-yamero-otsukare@0.0.0 Failed to exec coveralls script
+9 verbose stack Error: Exit status 1
+9 verbose stack     at ChildProcess.<anonymous> (/Users/kenji/.nvm/v0.11.14/lib/node_modules/npm/lib/utils/lifecycle.js:212:16)
+9 verbose stack     at ChildProcess.emit (events.js:110:17)
+9 verbose stack     at maybeClose (child_process.js:1000:16)
+9 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1072:5)
+10 verbose pkgid hubot-yamero-otsukare@0.0.0
+11 verbose cwd /Users/kenji/Dropbox/git/hubot-yamero-otsukare
+12 error Darwin 14.1.0
+13 error argv "/Users/kenji/.nvm/v0.11.14/bin/node" "/Users/kenji/.nvm/v0.11.14/bin/npm" "run" "coveralls"
+14 error node v0.11.14
+15 error npm  v2.0.0
+16 error code ELIFECYCLE
+17 error hubot-yamero-otsukare@0.0.0 coveralls: `gulp test && cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js`
+17 error Exit status 1
+18 error Failed at the hubot-yamero-otsukare@0.0.0 coveralls script.
+18 error This is most likely a problem with the hubot-yamero-otsukare package,
+18 error not with npm itself.
+18 error Tell the author that this fails on your system:
+18 error     gulp test && cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
+18 error You can get their info via:
+18 error     npm owner ls hubot-yamero-otsukare
+18 error There is likely additional logging output above.
+19 verbose exit [ 1, true ]
